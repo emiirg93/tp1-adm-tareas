@@ -1,0 +1,16 @@
+{
+  "name": "api-rest-adm-tareas",
+  "version": "1.0.0",
+  "description": "Crea una API RESTful para administrar tareas. Deberás implementar las operaciones básicas de CRUD (Crear, Leer, Actualizar, Eliminar) para las tareas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uniqid": "^5.4.0"
+  }
+}
