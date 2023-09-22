@@ -9,6 +9,12 @@ const obtenerListado = (req = request, res = response) => {
 
 const obtenerListadoPorId = (req = request, res = response) => {
     const { id } = req.params;
+
+    if(!id){
+        res.status(400).send(`Es necesario el id para obtener una tarea.`);
+        return;
+    }
+
     const tarea = listado.find(t => t.id === id);
 
     if(!tarea){
